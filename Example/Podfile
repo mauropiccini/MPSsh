@@ -1,0 +1,12 @@
+target 'MPSsh', :exclusive => true do
+  pod "MPSsh", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  pod "MPSsh", :path => "../"
+
+  pod 'Specta', '~> 0.2.1'
+  pod 'Expecta'
+  pod 'FBSnapshotTestCase'
+  pod 'EXPMatchers+FBSnapshotTest'
+end

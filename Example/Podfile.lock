@@ -1,0 +1,34 @@
+PODS:
+  - Expecta (0.3.0)
+  - EXPMatchers+FBSnapshotTest (1.1.0):
+    - Expecta
+    - FBSnapshotTestCase
+  - FBSnapshotTestCase (1.1)
+  - libssh2 (1.4.3):
+    - OpenSSL
+  - MPSsh (0.1.0):
+    - libssh2
+  - OpenSSL (1.0.108)
+  - Specta (0.2.1)
+
+DEPENDENCIES:
+  - Expecta
+  - EXPMatchers+FBSnapshotTest
+  - FBSnapshotTestCase
+  - MPSsh (from `../`)
+  - Specta (~> 0.2.1)
+
+EXTERNAL SOURCES:
+  MPSsh:
+    :path: ../
+
+SPEC CHECKSUMS:
+  Expecta: ce8a51b9fad15a2cd573b291cb2909aaed865350
+  EXPMatchers+FBSnapshotTest: fcc428d6a5d4410c1711aeda4456c9c5e93f98d3
+  FBSnapshotTestCase: 9053afee1d66b4c7c313fcb0ae582a5e47bea9d0
+  libssh2: 83cae711b9c8f88eb30bdd2c825b8b0706683cd6
+  MPSsh: fcf9ab4c45d150f7774043ae80c952a3a168b24a
+  OpenSSL: 62c06e5ec449a28e41c7b225c96193dc5b20800c
+  Specta: 9141310f46b1f68b676650ff2854e1ed0b74163a
+
+COCOAPODS: 0.33.1
